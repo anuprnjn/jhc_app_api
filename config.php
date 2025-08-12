@@ -9,6 +9,7 @@ $VERSION = 'v1.0';
 $IV_VALUE = 'S8j9oXnoruCtYlGk';
 $BASE_URL = 'https://delhigw.napix.gov.in/nic/ecourts/';
 $HC_EST_CODE = "est_code=JHHC01";
+$BASE_URL82 = 'http://10.134.14.82/occ_api/ios_api/';
 
 function generateAccessToken($clientId, $clientSecret, $tokenUrl)
 {
